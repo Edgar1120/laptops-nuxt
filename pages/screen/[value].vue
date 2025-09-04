@@ -1,8 +1,15 @@
 <script setup lang="ts">
 const route = useRoute()
-const value = decodeURIComponent(String(route.params.value || ""))
-const { data: docs } = await useAsyncData(`facet-screenInches-` + value, () =>
-  queryContent('/laptops').where({screenInches: value}).find()
+const raw = String(route.params.value ?? "")
+const num = Number(raw)
+const candidates = [raw]
+if (Number.isFinite(num)) candidates.push(num)
+
+// Buscar si screenInches es number o string en el contenido
+const { data: docs } = await useAsyncData(`facet-screenInches-${raw}`, () =>
+  queryContent('/laptops').where({
+    screenInches: { $in: candidates }     // coincide si está como 15.6 (number) o "15.6" (string)
+  }).find()
 )
 </script>
 
