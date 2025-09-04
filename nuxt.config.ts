@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     highlight: { theme: 'github-dark' }
   },
   nitro: {
-    preset: 'node'
+    preset: 'netlify'
   },
   app: {
     head: {
