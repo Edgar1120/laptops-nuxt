@@ -1,5 +1,0 @@
-const _slug__vue_vue_type_style_index_0_scoped_4d63544e_lang = ".laptop-detail[data-v-4d63544e]{background:#fff;border-radius:1rem;box-shadow:0 4px 12px #00000014;padding:2rem}.laptop-detail h1[data-v-4d63544e]{color:#1e293b;font-size:1.8rem;font-weight:700;margin-bottom:.75rem;text-align:center}.badge[data-v-4d63544e]{background:#e0f2fe;border-radius:9999px;color:#2563eb;display:inline-block;font-size:.9rem;font-weight:600;margin:0 auto 1.5rem;padding:.35rem .75rem;text-align:center}.laptop-detail[data-v-4d63544e] h2{color:#334155;font-size:1.3rem;margin-top:1.5rem}.laptop-detail[data-v-4d63544e] ul{list-style:none;margin:1rem 0;padding:0}.laptop-detail[data-v-4d63544e] li{border-bottom:1px solid #e5e7eb;padding:.5rem .75rem}.laptop-detail[data-v-4d63544e] li:last-child{border-bottom:none}";
-export {
-  _slug__vue_vue_type_style_index_0_scoped_4d63544e_lang as default
-};
-//# sourceMappingURL=_slug_-styles-1.mjs-JoKs1i2C.js.map
