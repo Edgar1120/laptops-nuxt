@@ -1,0 +1,5 @@
+const index_vue_vue_type_style_index_0_scoped_a846328e_lang = ".facet-list[data-v-a846328e]{background:#f9fafb;border-radius:1rem;box-shadow:0 4px 12px #00000014;padding:2rem}.facet-list h1[data-v-a846328e]{color:#1e293b;font-size:1.5rem;margin-bottom:1.5rem;text-align:center}.facet-list ul[data-v-a846328e]{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));list-style:none;margin:0;padding:0}.facet-list li[data-v-a846328e]{text-align:center}.facet-list a[data-v-a846328e]{background:#fff;border-radius:.75rem;box-shadow:0 2px 6px #0000000f;color:#2563eb;display:block;font-weight:500;padding:.75rem 1rem;transition:all .2s ease;word-break:break-word}.facet-list a[data-v-a846328e]:hover{background:#2563eb;box-shadow:0 6px 16px #00000026;color:#fff;transform:translateY(-3px)}";
+export {
+  index_vue_vue_type_style_index_0_scoped_a846328e_lang as default
+};
+//# sourceMappingURL=index-styles-1.mjs-DEqilMSv.js.map
